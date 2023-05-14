@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/styles.css"></script>
     <title>Document</title>
 </head>
 <body>
-    <img src="/willian-justen-de-vasconcellos-1_LeTjy_A4o-unsplash.jpg" width="20%" height="20%"> <!-- add max height and width -->
-    <div>
-        <h4>Come Explore Osaka!</h1>
-        <p>Come experience the sounds and sights of Osakan nightlife. Izakayas, bars, restuarants and more! Create an account <em>now</em> for the best deals!</p>
-    </div>
-    <form action="/index.html" method="POST">
-        <fieldset>
-            <label for="first-name">First Name:</label>
+    <img src="/willian-justen-de-vasconcellos-1_LeTjy_A4o-unsplash.jpg" width="34%" height="34%"> <!-- add max height and width -->
+    <div class="form-container">
+        <div class="text-container">
+            <h1>Come Explore Osaka!</h1>
+            <p>Come experience the sounds and sights of Osakan nightlife. Izakayas, bars, restaurants and more! Create an account <em>now</em> for the best deals!</p>
+            <p>This is not a real promotion or service</p>
+        </div>
+        <form action="/index.html" method="POST">
+            <p class="form-title">Lets Do This!</p>
+            <label for="first-name">First Name</label>
             <input type="text" id="first-name" class="form-field" name="first-name">
-            <label for="last-name">Last Name:</label>
+            <label for="last-name">Last Name</label>
             <input type="text" id="last-name" class="last-field" name="last-name">
-            <label for="email"> Email:</label>
+            <label for="email"> Email</label>
             <input type="email" id="email" class="email" name="email">
-            <label for="phone">Phone Number:</label>
+            <label for="phone">Phone Number</label>
             <input type="number" id="phone" class="phone" name="phone">
-            <label for="password">Password:</label>
+            <label for="password">Password</label>
             <input type="password" id="password" class="password" name="password">
-            <label for="confirm">Confirm Password:</label>
+            <label for="confirm">Confirm Password</label>
             <input type="password" id="confirm" class="confirm" name="confirm">
-            <button type="submit">Create an Account</button>
-        </fieldset>
-        <p>Already have an account? <a href="">Log in</a></p>
-    </form>
+        </form>
+        <button type="submit">Create an Account</button>
+        <p class="login">Already have an account? <a href="">Log in</a></p>
+    </div>
 </body>
 </html>

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #09161f;
+    font-family: 'Karla', sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: rgb(185, 185, 185);
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-container {
+    padding-top: 8rem;
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    width: 35rem;
+    text-align: left;
+}
+
+form {
+    background-color: #0e2230;
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    align-content:space-evenly;
+    gap: 20px;
+    padding: 2rem;
+    padding-right: 25rem;
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input {
+    background-color: #09161f;
+    border: 1px solid #09161f;
+}
+
+input:focus {
+    background-color: #09161f;
+    border: 1px solid #193d57;
+}
+
+button {
+    margin:2rem;
+    background-color: #b65370;
+    font-family: 'Karla', sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color:rgb(185, 185, 185);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.login {
+    padding-left: 2rem;
+    padding-bottom: 4rem;
+    width: 35rem;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color:  #b65370;
+    font-weight: 700;
+}
+
+a:hover{
+    color:  #b65370;
+}
