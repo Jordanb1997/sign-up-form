@@ -58,11 +58,13 @@ input {
     border: 1px solid #09161f;
     width: 40rem;
     align-self: center;
+    color: rgb(185, 185, 185);
 }
 
 input:focus {
     background-color: #09161f;
     border: 1px solid #193d57;
+    color: rgb(185, 185, 185);
 }
 
 button {
